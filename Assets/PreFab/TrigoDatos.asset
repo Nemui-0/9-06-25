@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b9ced44a83e05d19a257a2400710ab, type: 3}
+  m_Name: TrigoDatos
+  m_EditorClassIdentifier: 
+  nombre: Trigo
+  preFabPlanta: {fileID: 1448261668852146783, guid: d3ba626a7f24beaa5a6be7c9f27d55ec, type: 3}
+  tiempoEspera: 8
+  precio: 5

@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -41,3 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: suelo
+    uniqueID: 4031268243
+    locked: 0
+  - name: colinas
+    uniqueID: 235191891
+    locked: 0
+  - name: player
+    uniqueID: 787519851
+    locked: 0
+  - name: colisiones
+    uniqueID: 1846341495
+    locked: 0
+  m_RenderingLayers:
+  - Default

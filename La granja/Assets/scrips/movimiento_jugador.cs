@@ -3,12 +3,14 @@ using UnityEngine.InputSystem;
 
 public class Movimiento_jugador : MonoBehaviour
 
+
 {
     public float velocidad = 5f;
     public Rigidbody2D rg;
     public Vector2 entrada;
     Animator animator;
-
+    public GameObject preFabTrigo;
+    public GameObject preFabTomate;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -46,8 +48,8 @@ public class Movimiento_jugador : MonoBehaviour
 
         }
 
-        animator.SetFloat("EntradaX", entrada.x);
-        animator.SetFloat("EntradaY", entrada.y);
+        animator.SetFloat("entradaX", entrada.x);
+        animator.SetFloat("entradaY", entrada.y);
 
         if (contexto.canceled)
         {
@@ -55,7 +57,23 @@ public class Movimiento_jugador : MonoBehaviour
 
         }
 
+    }
 
+
+    public void sembrarT(InputAction.CallbackContext contexto)
+    {
+        if (contexto.started)
+        {
+            Instantiate(preFabTrigo, transform.position, Quaternion.identity);
+        }
+    }
+
+    public void sembrarJ(InputAction.CallbackContext contexto)
+    {
+        if (contexto.started)
+        {
+            Instantiate(preFabTomate, transform.position, Quaternion.identity);
+        }
     }
 
 }

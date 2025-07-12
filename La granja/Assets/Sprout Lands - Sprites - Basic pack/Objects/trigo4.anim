@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: trigo1
+  m_Name: trigo4
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -7396305697263286651, guid: 16b03c926062e644f820457c5bfc5967, type: 3}
+      value: {fileID: -4968072622433853253, guid: 16b03c926062e644f820457c5bfc5967, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,7 +44,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -7396305697263286651, guid: 16b03c926062e644f820457c5bfc5967, type: 3}
+    - {fileID: -4968072622433853253, guid: 16b03c926062e644f820457c5bfc5967, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

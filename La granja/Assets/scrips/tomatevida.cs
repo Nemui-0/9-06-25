@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 
-public class trigovida : MonoBehaviour
+public class tomatevida : MonoBehaviour
 {
     int estado = 0;
     Animator animator;

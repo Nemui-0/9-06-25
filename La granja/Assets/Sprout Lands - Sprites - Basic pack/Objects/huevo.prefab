@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 1266424660904060294}
   m_Layer: 0
   m_Name: Egg_item_0
-  m_TagString: Untagged
+  m_TagString: huevo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

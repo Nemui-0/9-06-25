@@ -4,6 +4,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instancia;
     public int huevos = 0;
+    public int trigo = 0;
 
     void Awake()
     {
@@ -22,5 +23,10 @@ public class GameManager : MonoBehaviour
     public void SumarHuevo()
     {
         huevos++;
+    }
+    
+    public void SumarTrigo()
+    {
+        trigo++;
     }
 }

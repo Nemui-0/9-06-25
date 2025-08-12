@@ -1,0 +1,6 @@
+.numeros {
+    font-size: 24px; /* cambia el tamaño de la letra */
+    color: white; /* cambia el color a blanco */
+    margin-left: 10px; /* margenes a la izquierda */
+    margin-top: 10px; /* margenes arriba */
+}

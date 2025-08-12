@@ -82,4 +82,19 @@ public class Movimiento_jugador : MonoBehaviour
                 GameManager.instancia.SumarHuevo();
             }
             }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision.CompareTag("huevo"))
+    {
+        Destroy(collision.gameObject);
+        GameManager.instancia.SumarHuevo();
+    }
+    else if (collision.CompareTag("Trigo"))
+    {
+        Destroy(collision.gameObject);
+        GameManager.instancia.SumarTrigo();
+    }
+}
+
 }
